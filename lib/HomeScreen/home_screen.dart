@@ -128,7 +128,7 @@ class _HomeScreenState extends State<HomeScreen> {
         children: [
           _header(),
           SizedBox(
-            height: MediaQuery.sizeOf(context).height * 0.08,
+            height: MediaQuery.sizeOf(context).height * 0.02,
           ),
           _dateTime(),
           SizedBox(
